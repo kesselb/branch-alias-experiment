@@ -17,6 +17,6 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
       - run: |
-          git symbolic-ref refs/heads/stable28 refs/heads/main
-          git push origin refs/heads/stable28
+          git symbolic-ref refs/remotes/origin/stable28 refs/remotes/origin/main
+          git push origin stable28
     
